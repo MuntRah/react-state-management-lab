@@ -121,6 +121,7 @@ const App = () => {
             <li key={index}>
               <h2>Name: {t.name}</h2>
               <img src={t.img} alt={t.name} />
+              <p>Price: ${t.price}</p>
               <h2>Strength: {t.strength}</h2>
               <h2>Agility: {t.agility}</h2>
               <button onClick={() => handleDeleteFighter(index)}>Delete</button>
